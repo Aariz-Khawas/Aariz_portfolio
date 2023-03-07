@@ -1,0 +1,89 @@
+img {
+  border: 3px solid black;
+  width: 40%;
+  border-radius: 10px;
+}
+
+body {
+  text-align: center;
+  background-color: #03A9F4;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  font-variant: small-caps;
+}
+
+p {
+  font-size: 50px;
+  font-variant: small-caps;
+  color: rgb(255, 255, 255);
+  text-decoration: double;
+  text-decoration-color: blue;
+  text-decoration-line: underline;
+}
+
+#content {
+  font-size: 40px !important;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+}
+
+.hobbies {
+  width: 30%;
+  margin: 10px;
+}
+
+.menu {
+  position: fixed;
+  top: 0px;
+  background: white;
+  margin-top: 0px;
+  width: 100%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+
+.links {
+  display: inline;
+  padding-left: 33px;
+  padding-right: 25px;
+  font-size: 35px;
+  color: blue;
+  font-family: fantasy;
+  margin-bottom: 100px;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+#name {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 65px;
+  margin-top: 15px;
+}
+
+.headings {
+  font-family: 'Rampart One', cursive;
+  font-size: 40px;
+}
+
+.mailid {
+  font-size: 20px !important;
+  display: inline;
+  color: white;
+  margin-top: 20px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.links :hover {
+  font-size: 45px;
+  text-decoration: wavy;
+  color: coral;
+}
